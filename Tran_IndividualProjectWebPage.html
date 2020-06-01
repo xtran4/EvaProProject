@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+  <title>EVAPRO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/page_4/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/page_4/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Nunito Sans", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("image13.jpg");
+  min-height: 90%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:brown;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:orange;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color:burlywood;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+#personalTrain {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: goldenrod;
+  margin-top: 20px;
+}
+ 
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-green w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="#service" class="w3-bar-item w3-button">SERVICE</a>
+    <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Contact us for further information</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:80px">WELCOME TO EVAPRO</span>
+    <p><a href="#about" class="w3-button w3-xxlarge w3-black">ABOUT US</a></p>
+  </div>
+</header>
+
+
+<!-- About Container -->
+<div class="w3-container w3-padding-50 w3-green w3-grayscale w3-xlarge " id="about">
+    <div class="w3-content">
+      <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+      <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="myimage.jpg" alt="Sunny" style="width:100%">
+              <div class="container w3-padding-50">
+                <h2>Sunny Tran</h2>
+                <p class="title">CEO & Founder</p>
+                <p>I am here willing to help women get heathtier life and more confident.</p>
+                <p>Contact: stran4@evapro.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+              <div class="card">
+                <h1>Welcome to EvaPro!</h1>
+                <h2>We are very happy when you visit our site</h2>
+                <p> Our site introduce about training and food plans all women who are facing with PCOS syndrome and diabetes. 
+                    We have a team with all professionals and advisors that can helps you to achieves the best results.
+                    We guarantee that you will feel sastified about the services we provide.
+
+                    Visit our Service page and Menu page to get the idea of our amazing service.
+
+                    Feel free to leave your contact information in Contact page.
+
+                    ~Thank You~
+                </p>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="container w3-padding-64 w3-blue w3-xlarge" id="service">
+      <div style="text-align:center">
+      <h2>OUR SERVICE </h2>
+      </div>
+      <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="image7.jpg" style="width:100%">
+            <div><a href="#personalTraining" class="w3-button w3-xxlarge w3-purple w3-center">PESONAL TRAINING PROGRAM</a></div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="image8.jpg" style="width:100%">
+            <div><a href="#trainingClasses" class="w3-button w3-xxlarge w3-purple w3-center">TRAINING CLASSES</a></div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="image6.jpg" style="width:100%">
+            <div><a href="#yogaClass" class="w3-button w3-xxlarge w3-purple w3-center">YOGA CLASS</a></div>
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+          
+          </div>
+          </div>
+          </div>
+          </div>
+
+          
+    </div>
+    <div class="container w3-padding-64 w3-white w3-xlarge" id="personalTraining">
+        <div style="text-align:center">
+        <h2>PERSONAL TRAINING PROGRAM </h2>
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="image7.jpg" alt="personal traning" style="width:100%">
+              </div>    
+        </div>
+    
+    <div class="column">
+        <div class="card">
+          <h2>Available Section</h2>
+          <p> Monday-Thurday:4pm-10pm (2 hours/section)</p>
+          <p>Friday-Saturday: All day 6am-12am (2 hours/section)</p>
+          <p>Sunday: All Day 6am-8pm (2 hours/section)</p>
+          <p> Price: $60/person/month</p>
+        </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="container w3-padding-64 w3-white w3-xlarge" id="trainingClasses">
+    <div style="text-align:center">
+        <h2>GENERAL TRAINING CLASSES </h2>
+      <div class="column">
+        <div class="card">
+          <p>Available Monday-Sunday:6am-12am</p>
+          <p>Price: $40/person/month</p>
+        </div>
+      </div>
+          <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src="image8.jpg" alt="classes traning" style="width:100%">
+          </div>
+    </div>      
+</div>
+</div>
+</div>
+<div class="container w3-padding-64 w3-white w3-xlarge" id="yogaClass">
+    <div style="text-align:center">
+    <h2>YOGA TRAINING </h2>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="image6.jpg" alt="yoga traning" style="width:100%">
+    </div>
+    
+        
+    </div>
+    <div class="column">
+        <div class="card">
+          <p> Monday-Thurday:6am-8am, 12pm-2pm,4pm-10pm</p>
+          <p>Friday-Saturday: All day 6am-12am (2 hours/section)</p>
+          <p>Sunday: All day 6am-8pm (2 hours/section)</p>
+          <p>Price: $80/person/month</p>
+        </div>
+      </div>
+</div>
+</div>
+</div>
+
+
+<div class="w3-container w3-orange w3-padding-45 w3-xxlarge " id="menu">
+  <div class="w3-content">
+      <h1>OUR MENU FOR THIS SEASON</h1>
+      <h4>This is Menu for this season when you come to Evapro</h4>
+    <!-- Portfolio Menu -->
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="menu1.jpg" alt="menu1" style="width:60%;">
+            <div class="container" style="width: 80%">
+              <h2>Sunshine Bowl</h2>
+              <h4>Grilled chicken, brown rice and vegetables</h4>
+              <h4>Price: $9.99</4>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="menu2.jpg" alt="menu2" style="width:90%">
+            <div class="container" style=" width: 90%">
+              <h2>Curry Bowl</h2>
+              <h4>Grilled Salmon, vegetables and rice dipping in curry sauce</h4>
+              <h4>Price: $10.45</h4>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="menu3.jpg" alt="menu3" style="width:64%">
+            <div class="container" style="width: 64%">
+              <h2>Spaghetti Party </h2>
+              <h4>Whole grain spaghetti, beef and tomato sauce</h4>
+              <h4>Price: $10.45</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="menu4.jpg" alt="menu4" style="width:80%">
+                <div class="container" style="width: 80%">
+                  <h2>Winter Soup Bowl</h2>
+                  <h4>Vegetables, mushrooms and chickpeas</h4>
+                  <h4>Price: $9.99</h4>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="menu5.jpg" alt="menu5" style="width:55%">
+                <div class="container" style="width: 55%">
+                  <h2>Energy Bowl</h2>
+                  <h4>Brown Rice, chicken, cucumber and tomatoes</h4>
+                  <h4>Price: $10.45</h4>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <img src="menu6.jpg" alt="menu6" style="width:80%">
+                <div class="container" style="width: 80%">
+                  <h2>Korean Bibimbap</h2>
+                  <h4>Brown Rice, fried egg, vegetables </h4>
+                  <h4>Price: $10.45</h4>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          <p><b>Note:</b> This menu is displayed in our business location. Customers can purchase at the location as additonal meals.</p>
+      </div>
+  </div>
+</div>
+
+   
+    
+
+  
+
+
+<div class="container w3-padding-64 w3-brown  w3-xlarge" id="contact">
+    <div style="text-align:center">
+    <h2>Contact Us </h2>
+    </div>
+    <div class="row">
+      <div class="column">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.2777282656157!2d-77.22466938477488!3d38.917629153356735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64ae89541ace1%3A0x22f6262ba3525df2!2sTysons%20Corner%20Center!5e0!3m2!1sen!2sus!4v1572915499882!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Phone Number:</label>
+          <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+          <label for="country">Email:</label>
+          <input type="text" id="email" name="email" placeholder="Your email address..">
+          <label for="state">State:<label>
+          <select id="state" name="state">
+            <option value="VA">Virginia</option>
+            <option value="MD">Maryland</option>
+            <option value="DC">Washington DC</option>
+          </select>
+          <label for="subject">Additional Comments(Optional)</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-gray w3-padding-48 w3-xxlarge">
+    <div id="u12" class="ax_default icon">
+        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com" class="fa fa-twitter" style="margin-left: 2em"></a>
+        <a href="https://mail.google.com/mail" class="fa fa-google" style="margin-left: 2em"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram" style="margin-left: 2em"></a>
+    </div>
+</footer>
+
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    
+     
+</script>
+
+
+    </script>
+
+</body>
+</html>
+
+
+   
+ 
+ 
+
+ 
